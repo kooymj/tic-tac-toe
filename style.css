@@ -1,0 +1,52 @@
+.container {
+    padding-top: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.container h4 {
+    text-align: center;
+    font-size: 24px;
+}
+.game {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    border: solid 2px black;
+    max-width: 450px;
+    min-width: 450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.grid-item p {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bolder;
+    min-height: 80%;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    min-height: 100px;
+    min-width: 200px;
+    font-size: 32px;
+    border-radius: 5px;
+}
